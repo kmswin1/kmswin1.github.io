@@ -6,7 +6,7 @@
 name: Minsang Kim
 
 # Short bio or description (displayed in the header)
-description: Web Developer
+description: Deep learning Engineer, Data scientist, Software developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://github.com/kmswin1/kmswin1.github.io/blob/master/images/kms.jpeg?raw=true
@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: kmswin1
   instagram: min_syang
-  linkedin:
+  linkedin: https://www.linkedin.com/in/minsang-kim-53648717a/
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
