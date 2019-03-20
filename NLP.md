@@ -4,7 +4,6 @@ title: NLP
 permalink: /NLP/
 ---
 
-Nice to meet you !!
 
 ### More Information
 
