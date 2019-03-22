@@ -5,8 +5,6 @@ permalink: /NLP/
 ---
 
 
-### More Information
-
 NLP Papers
 
 <h3> Subject : Stronger baselines for trustable results in Neural machine translation </h3> <br>
