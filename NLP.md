@@ -52,4 +52,6 @@ charCNN : CNN 기반, 보통 3,4,5 size conv 돌린 후 , max pooling -> fc -> o
 <br>
 <br>
 <br>
+### Contact me
+
 [kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
