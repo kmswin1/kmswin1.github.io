@@ -12,7 +12,8 @@ permalink: /NLP/
   NMT 모델에 대하여 정확한 성능 평가를 위한 제대로 된 기준이 필요할 것이고 우리가 제시해볼게 !!<br>
 
 <h5> Intro & Experiment </h5>
-  <img src="https://drive.google.com/open?id=1dupC1yNMcm1Telx_L3nLK3gkURZVOqnd" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/st1.png" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/스크린샷 2019-03-23 오전 12.31.08.png" />
   <p>
 i) Adam 과 Learning rate scheduling을 여러 번 시도! -> To find global minima fastly. <br>
 ii) Byte-pair encoding 사용 -> To increase voca <br>
