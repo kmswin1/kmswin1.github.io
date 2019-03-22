@@ -12,9 +12,9 @@ permalink: /NLP/
   NMT 모델에 대하여 정확한 성능 평가를 위한 제대로 된 기준이 필요할 것이고 우리가 제시해볼게 !!<br>
 
 <h5> Intro & Experiment </h5>
-<p>
   <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-03-23%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2012.31.05.png" />
   <img src="./images/스크린샷 2019-03-23 오전 12.31.08.png" />
+  <p>
 i) Adam 과 Learning rate scheduling을 여러 번 시도! -> To find global minima fastly. <br>
 ii) Byte-pair encoding 사용 -> To increase voca <br>
 iii) Ensemble method 사용 -> 96% -> 98% (To remove bias) <br>
