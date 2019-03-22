@@ -30,7 +30,7 @@ rare 한 voca 를 다룰 때 사용, input -> pbmt (concat) -> output -> nmt -> 
 pipeline 말고 skip connection 사용하기도 함. <br>
 iv) Data bootstrapping : pbmt output 다시 pbmt ... recursive 하게 해서 optimal 하게 만듦
 모두 성능 향상에 기여한다. 
-  </p><br>
+  </p>
   <h5> Conclusion </h5>
 <p> NMT 모델개발하고 성능 평가 할 때, 통상적으로는
 우리가 제시해준 기준을 따르면 가장 강력한 무기가 될 거야.<br> </p>
