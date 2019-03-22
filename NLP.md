@@ -43,9 +43,9 @@ iv) Data bootstrapping : pbmt output 다시 pbmt ... recursive 하게 해서 opt
 <h5> Model </h5>
 <img src="images/스크린샷 2019-03-23 오전 12.24.47.png" />
 식 해석 : 전체 d개의 단어들에 대해 1~k gram 을 가지고 dictionary 에 있는 단어면 1, 아니면 0을 반환하고, weight 를 곱하여 nonlinear function 적용 하여 임베딩 <br>
-<img src="images/스크린샷 2019-03-23 오전 12.25.17.png" />
+<img src="images/20160802_7a29187b_charseq.jpeg" />
 charRNN : RNN 기반 character embedding 마지막 output vector 로 임베딩! <br>
-<img src="images/스크린샷 2019-03-23 오전 12.25.32.png" />
+<img src="images/스크린샷 2019-03-23 오전 12.27.55.png" />
 charCNN : CNN 기반, 보통 3,4,5 size conv 돌린 후 , max pooling -> fc -> output vector (yoon kim model) <br>
 <br>
 <br>
