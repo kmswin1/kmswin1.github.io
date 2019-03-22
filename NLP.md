@@ -6,7 +6,8 @@ permalink: /NLP/
 
 
 <h1> NLP Papers </h1>
-
+<a class="page-scroll" href="sb"> Stronger Baselines for NMT </a>
+<section id="sb" class="feature">
 <h3> Subject : Stronger baselines for trustable results in Neural machine translation </h3>
 <h5> Abstract <h5> 
   NMT 모델에 대하여 정확한 성능 평가를 위한 제대로 된 기준이 필요할 것이고 우리가 제시해볼게 !!<br>
