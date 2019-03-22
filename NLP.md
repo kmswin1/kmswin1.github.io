@@ -13,7 +13,7 @@ permalink: /NLP/
 
 <h5> Intro & Experiment </h5>
 <p>
-  <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/스크린샷 2019-03-23 오전 12.31.05.png" />
+  ![_config.yml](/images/스크린샷 2019-03-23 오전 12.31.05.png)
   <img src="images/스크린샷 2019-03-23 오전 12.31.08.png" />
 i) Adam 과 Learning rate scheduling을 여러 번 시도! -> To find global minima fastly. <br>
 ii) Byte-pair encoding 사용 -> To increase voca <br>
