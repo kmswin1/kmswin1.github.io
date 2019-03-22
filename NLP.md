@@ -7,7 +7,7 @@ permalink: /NLP/
 
 <h1> NLP Papers </h1>
 
-<h3> Subject : Stronger baselines for trustable results in Neural machine translation </h3> <br>
+<h3> Subject : Stronger baselines for trustable results in Neural machine translation </h3>
 <h5> Abstract <h5> 
   NMT 모델에 대하여 정확한 성능 평가를 위한 제대로 된 기준이 필요할 것이고 우리가 제시해볼게 !!<br>
 
@@ -36,11 +36,12 @@ iv) Data bootstrapping : pbmt output 다시 pbmt ... recursive 하게 해서 opt
 우리가 제시해준 기준을 따르면 가장 강력한 무기가 될 거야.<br> </p>
 
 <br>
-<h3> Subject :  CHARAGRAM: Embedding Words and Sentences via Character n-grams </h3> <br>
+<h3> Subject :  CHARAGRAM: Embedding Words and Sentences via Character n-grams </h3>
 
 <h5> Abstract </h5> 
 전통적으로 word 단위 임베딩을 많이하는데, 그건 트레이닝셋에서 없는 매우 희귀한 단어들은 잘 나타낼 수 있고, 이전 character based 모델인 charRNN, charCNN 보다 우리꺼가 성능이 더 좋아. 우리모델은 간단한 n-gram counter vector 들을 non-linear transformation 해서 낮은 차원벡터로 임베딩해 <br>
-
+<h5> Model </h5>
+<img src="images/스크린샷 2019-03-23 오전 12.24.47.png" />
 <br>
 <br>
 <br>
