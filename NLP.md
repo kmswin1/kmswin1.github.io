@@ -31,7 +31,11 @@ iv) Data bootstrapping : pbmt output 다시 pbmt ... recursive 하게 해서 opt
   </p>
 
 
+<h3> Subject :  CHARAGRAM: Embedding Words and Sentences via Character n-grams </h3> <br>
 
+<h5> Abstract </h5> <br>
 
-
+<br>
+<br>
+<br>
 [kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
