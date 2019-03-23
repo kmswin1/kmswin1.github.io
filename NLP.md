@@ -61,6 +61,20 @@ convergence
 
 <h5> Model </h5>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.50.16.png?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.51.33.png?raw=true" />
+학습을 cnn 레이어까지만! <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.51.40.png?raw=true" />
+학습을 word embdding 까지! <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.51.48.png?raw=true" />
+multi-channel : 섞어서! (본 의도는 overfitting 을 방지하기 위함이지만 잘 안됌) <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-03-23%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.52.01.png?raw=true" />
+non-static vs static : word embedding 의 변화가 보임.
+<h5>Conclusion</h5>
+요즘 NLP 문제 CNN 으로 많이 풀더라<br>
+그래서 나도 해봤는데 기존 sota 보다 잘돼 ᄏᄏ 그리고 내 모델은 고작 conv layer 1개임<br>
+그래서 Hyperparameter tuning 수 비교도 안되게 적음<br>
+word embedding 까지 학습시키면 특정 task 에 더 잘돼 <br>
+문장 길이를 고려하여 맞출 필요가 없는 max pooling 구조 !!<br>
 <br>
 <br>
 <br>
