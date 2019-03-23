@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Minsang kim
-permalink: /
+permalink: 
 ---
 
 Main
