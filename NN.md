@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Unusual NN
-permalink: /NN/
+title: Neural ODE
+permalink: /NeuralODE/
 ---
 
-Unusual NN
+Neural ODE
 
 [kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
