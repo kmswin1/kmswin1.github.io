@@ -48,6 +48,13 @@ charRNN : RNN 기반 character embedding 마지막 output vector 로 임베딩! 
 charCNN : CNN 기반, 보통 3,4,5 size conv 돌린 후 , max pooling -> fc -> output (yoon kim model) <br>
 
 <h5> Conclusion </h5>
+sentence similarity
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-03-23%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2012.25.17.png?raw=true" />
+pos tagging
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-03-23%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2012.25.32.png?raw=true" />
+convergence
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-03-23%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2012.25.52.png?raw=true" />
+
 <p> 우리모델은 기존 character based embedding sota 들 보다 빠른 학습이 가능하고 성능도 더 좋아</p>
 <br>
 <br>
