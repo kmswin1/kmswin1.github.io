@@ -10,7 +10,7 @@ permalink: /NeuralODE/
   <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_1.png?raw=true" />
   <h5> Prior knowledge </h5>
   <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_2.png?raw=true" />
-  <a href="https://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/GAN/change_of_variable.ipynb"> Change of variable 공식 유도 </a>
+  <a href="https://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/GAN/change_of_variable.ipynb"> Change of variable 공식 유도 링크 </a>
 
   <h5> Model </h5>
    <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_3.png?raw=true" />
