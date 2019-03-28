@@ -10,7 +10,6 @@ permalink: /NeuralODE/
   <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_1.png?raw=true" />
   <h5> Prior knowledge </h5>
   <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_2.png?raw=true" />
-  <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_3.png?raw=true" />
   Proof of Change of variable <br>
   <p>
     P(A)=P(z1≤z≤z2)=∫z2z1pZ(z)dz(1)
@@ -50,5 +49,18 @@ pX(x)=pZ(g−1(x))∣∣∣dg−1(x)dx∣∣∣=pZ(g−1(x))∣∣∣dzdg(z)∣�
 
 pZ(z)=pX(x)∣∣∣dg(z)dz∣∣∣=pX(g(z))∣∣∣dg(z)dz∣∣∣(9)
 여기서 알 수 있는 점은 pX(x)가 Z=g−1(X) 관계에 의해 단순히 합성함수인 pZ(g−1(x)) 와 같지 않다는 점이다. </p>
+
   <h5> Model </h5>
+   <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_3.png?raw=true" />
+    <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_4.png?raw=true" />
+    <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_5.png?raw=true" />
+    <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_6.png?raw=true" />
+    <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_7.png?raw=true" />
+    <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_8.png?raw=true" />
+    <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_9.png?raw=true" />
+   <h5> Experiment </h5>
+       <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_10.png?raw=true" />
+<h5> Conclusion </h5>
+    <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_11.png?raw=true" />
+
 [kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
