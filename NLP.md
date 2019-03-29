@@ -97,26 +97,26 @@ word embedding 까지 학습시키면 특정 task 에 더 잘돼 <br>
 
 <h5> Model </h5>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_1.png?raw=true" />
-우리 모델의 기본적인 구조야. ROOT 를 dummy node 로 (padding) 지정 후, 계층 구조로 concat 하여 임베딩해
+우리 모델의 기본적인 구조야. ROOT 를 dummy node 로 (padding) 지정 후, 계층 구조로 concat 하여 임베딩해<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_2.png?raw=true" />
-기존 CNN embedding (i 번째 word 부터 j+1 개의 word concat)
+기존 CNN embedding (i 번째 word 부터 j+1 개의 word concat)<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_3.png?raw=true" />
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_4.png?raw=true" />
-우리 모델 embedding (i 번째 word 부터 ROOT node 까지 모든 ancestor word concat)
+우리 모델 embedding (i 번째 word 부터 ROOT node 까지 모든 ancestor word concat)<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_5.png?raw=true" />
-그 후 conv 돌려서 relu 적용
+그 후 conv 돌려서 relu 적용<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_6.png?raw=true" />
-그러면 sentence 의 l 개의 단어들마다 모두 c 값이 나옴!
+그러면 sentence 의 l 개의 단어들마다 모두 c 값이 나옴!<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_10.png?raw=true" />
-간단한 기존 CNN concat 된 모습
+간단한 기존 CNN concat 된 모습<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_9.png?raw=true" />
-우리 모델의 concat 된 모습
+우리 모델의 concat 된 모습<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_7.png?raw=true" />
-하지만 위의 모델은 한계가 있으므로, 더 정확하게 학습시키기 위해 ancestor 뿐만 아니라 특정 단어의 sibling 까지 동시에 찾도록 학습
+하지만 위의 모델은 한계가 있으므로, 더 정확하게 학습시키기 위해 ancestor 뿐만 아니라 특정 단어의 sibling 까지 동시에 찾도록 학습<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_8.png?raw=true" />
-즉, 가장 최종적으로 가장 advanced 된 모델은, ancestor, sibling, sequential 을 모두 진행 한 후, concat.
-각각 task 마다 100 개의 필터들을 사용
-결론적으로 기존의 CNN(300 dim) 보다 약 4배정도 커진 dimension 의 임베딩 (1,100 dim) 매우 heavy 해지긴 함!
+즉, 가장 최종적으로 가장 advanced 된 모델은, ancestor, sibling, sequential 을 모두 진행 한 후, concat.<br>
+각각 task 마다 100 개의 필터들을 사용<br>
+결론적으로 기존의 CNN(300 dim) 보다 약 4배정도 커진 dimension 의 임베딩 (1,100 dim) 매우 heavy 해지긴 함!<br>
 하지만 성능은 좋음!!<br>
 
 특이점 : Dropout 은 0.5 확률로 노멀하지만, learning rate 를 0.95 로 높게 책정하여, 수렴보다는 빠른 학습을 택한 것으로 예상됩니다.
