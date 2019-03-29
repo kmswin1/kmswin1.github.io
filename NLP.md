@@ -95,11 +95,11 @@ word embedding 까지 학습시키면 특정 task 에 더 잘돼 <br>
 우리 모델은 yoon kim 의 (바로 위의 글) cnn based embedding 을 따라했지만, sequential 하지 않고, hierarchical 한 구조로
 임베딩을 구현했어.
 
+<h5> Model </h5>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_1.png" />
+
 특이점 : Dropout 은 0.5 확률로 노멀하지만, learning rate 를 0.95 로 높게 책정하여, 수렴보다는 빠른 학습을 택한 것으로 예상됩니다.
 (recursive 한 tree 구조라서, 매우 많은 학습량이 요구될 non-convex 함수 일 것으로 예상됨)
-
-<h5> Model </h5>
-
 <h5> Conclusion </h5>
 
 <br>
