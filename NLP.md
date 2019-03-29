@@ -6,7 +6,9 @@ permalink: /NLP/
 
 
 <h1> NLP Papers </h1>
+
 <h3> Subject : Stronger baselines for trustable results in Neural machine translation </h3>
+
 <h5> Abstract <h5> 
   NMT 모델에 대하여 정확한 성능 평가를 위한 제대로 된 기준이 필요할 것이고 우리가 제시해볼게 !!<br>
 
@@ -30,6 +32,7 @@ pipeline 말고 skip connection 사용하기도 함. <br>
 iv) Data bootstrapping : pbmt output 다시 pbmt ... recursive 하게 해서 optimal 하게 만듦
 모두 성능 향상에 기여한다. 
   </p>
+  
   <h5> Conclusion </h5>
 <p> NMT 모델개발하고 성능 평가 할 때, 통상적으로는
 우리가 제시해준 기준을 따르면 가장 강력한 무기가 될 거야.<br> </p>
@@ -39,7 +42,9 @@ iv) Data bootstrapping : pbmt output 다시 pbmt ... recursive 하게 해서 opt
 
 <h5> Abstract </h5> 
 전통적으로 word 단위 임베딩을 많이하는데, 그건 트레이닝셋에서 없는 매우 희귀한 단어들은 학습시키기 어려워 또, 이전 character based 모델인 charRNN, charCNN 보다 우리꺼가 성능이 더 좋아. 우리모델은 간단한 n-gram counter vector 들을 non-linear transformation 해서 낮은 차원으로 임베딩해 <br>
+
 <h5> Model </h5>
+
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/스크린샷 2019-03-23 오전 12.24.47.png?raw=true" />
 식 해석 : 전체 d개의 단어들에 대해 1~k gram 을 가지고 dictionary 에 있는 단어면 1, 아니면 0을 반환하고, weight 를 곱한 뒤, nonlinear function 적용 하여 임베딩 , 2,3,4 gram 으로 학습<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/20160802_7a29187b_charseq.jpeg?raw=true" />
@@ -75,15 +80,24 @@ non-static vs static : word embedding 의 변화가 보임.
 그래서 Hyperparameter tuning 수 비교도 안되게 적음<br>
 word embedding 까지 학습시키면 특정 task 에 더 잘돼 <br>
 문장 길이를 고려하여 맞출 필요가 없는 max pooling 구조 !!<br>
+
 <h3> Subject : Dependency-based Convolutional Neural Networks for Sentence Embedding </h3>
+
 <h5> Abstract <h5> 
   이전의 CNN 기반 sentence embedding 모델들은 spatial information 을 이용하지만, 그 문장길이가 길어지면
   window size 에 모두 담지 못하므로, 거리가 먼 word 들간의 관계는 임베딩에 반영할 수가 없었어. 그래서 우리는 그
   한계를 극복하고자, non-local based model 인 Tree-based n-grams embedding 을 구현했고, 이전 sota 들
   보다 좋은 성능을 보였어. <br>
+  
 <h5> Intro </h5>
+이전에도 Tree based model 은 있었지만, syntactic parse tree 이기 때문에, data sparsity 문제가 있어서 잘 쓰이지 않았어.
+우리 모델은 yoon kim 의 (바로 위의 글) cnn based embedding 을 따라했지만, sequential 하지 않고, hierarchical 한 구조로
+임베딩을 구현했어.
+
 <h5> Model </h5>
+
 <h5> Conclusion </h5>
+
 <br>
 <br>
 <br>
