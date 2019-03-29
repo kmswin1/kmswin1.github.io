@@ -7,12 +7,13 @@ permalink: /about/
 Nice to meet you !!
 
 
-프로파일
-김민상
+Profile <br>
+김민상 Minsang Kim <br>
 고려대학교 컴퓨터학과 (2013 ~ 2019(학사))<br>
 B.S Dept. of Computer science and Engineering<br>
 Research Area : Deep learning, NLP, Optimization<br>
-about alogrithm problems : https://blog.naver.com/syang0804
+<a href="https://blog.naver.com/syang0804"> my naver blog (about internship, many algorithm problems </a>
+<a href="https://sites.google.com/view/minsangkim"> My CV </a>
 ### Contact me
 
 [kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
