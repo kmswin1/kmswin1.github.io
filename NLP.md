@@ -108,7 +108,7 @@ problem 은 심각해진다.)
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_5.png?raw=true" />
 그 후 conv 돌려서 relu 적용<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_6.png?raw=true" />
-그러면 sentence 의 l 개의 단어들마다 모두 c 값이 나옴!<br>
+그러면 sentence 의 l 개의 단어들마다 모두 c 값이 나옴! -> data sparsity 해결 <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_10.png?raw=true" />
 간단한 기존 CNN concat 된 모습<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_9.png?raw=true" />
