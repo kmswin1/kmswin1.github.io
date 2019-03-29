@@ -80,8 +80,7 @@ word embedding 까지 학습시키면 특정 task 에 더 잘돼 <br>
   이전의 CNN 기반 sentence embedding 모델들은 spatial information 을 이용하지만, 그 문장길이가 길어지면
   window size 에 모두 담지 못하므로, 거리가 먼 word 들간의 관계는 임베딩에 반영할 수가 없었어. 그래서 우리는 그
   한계를 극복하고자, non-local based model 인 Tree-based n-grams embedding 을 구현했고, 이전 sota 들
-  보다 좋은 성능을 보였. <br>
-
+  보다 좋은 성능을 보였어. <br>
 <h5> Intro </h5>
 <h5> Model </h5>
 <h5> Conclusion </h5>
