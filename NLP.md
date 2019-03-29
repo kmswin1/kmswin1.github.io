@@ -90,9 +90,13 @@ word embedding 까지 학습시키면 특정 task 에 더 잘돼 <br>
   보다 좋은 성능을 보였어. <br>
   
 <h5> Intro </h5>
-이전에도 Tree based model 은 있었지만, syntactic parse tree 이기 때문에, data sparsity 문제가 있어서 잘 쓰이지 않았어.
+이전에도 Tree based model 은 있었지만, syntactic parse tree 이기 때문에, data sparsity 문제가 있어서 잘 쓰이지 않았어. 
+(window size 가 커지면, 
 우리 모델은 yoon kim 의 (바로 위의 글) cnn based embedding 을 따라했지만, sequential 하지 않고, hierarchical 한 구조로
 임베딩을 구현했어.
+
+특이점 : Dropout 은 0.5 확률로 노멀하지만, learning rate 를 0.95 로 높게 책정하여, 수렴보다는 빠른 학습을 택한 것으로 예상됩니다.
+(recursive 한 tree 구조라서, 매우 많은 학습량이 요구될 non-convex 함수 일 것으로 예상됨)
 
 <h5> Model </h5>
 
