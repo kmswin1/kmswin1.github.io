@@ -21,7 +21,8 @@
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
           <script type="text/javascript">
-          window.location.href = 'http://kmswin1.github.io/about/';
+          if (document.location.href === 'http://kmswin1.github.io')
+              window.location.href = 'http://kmswin1.github.io/about/';
             </script>
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
