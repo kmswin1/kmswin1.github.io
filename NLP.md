@@ -117,14 +117,14 @@ word embedding 까지 학습시키면 특정 task 에 더 잘돼 <br>
 즉, 가장 최종적으로 가장 advanced 된 모델은, ancestor, sibling, sequential 을 모두 진행 한 후, concat.
 각각 task 마다 100 개의 필터들을 사용
 결론적으로 기존의 CNN(300 dim) 보다 약 4배정도 커진 dimension 의 임베딩 (1,100 dim) 매우 heavy 해지긴 함!
-하지만 성능은 좋음!!
-
+하지만 성능은 좋음!!<br>
 
 특이점 : Dropout 은 0.5 확률로 노멀하지만, learning rate 를 0.95 로 높게 책정하여, 수렴보다는 빠른 학습을 택한 것으로 예상됩니다.
 (recursive 한 tree 구조라서, 매우 많은 학습량이 요구될 non-convex 함수 일 것으로 예상됨)
 <h5> Conclusion </h5>
 우리는 recursive 한 트리 구조의 모델을 고안하여, 단어들의 위치에 상관없이 embedding 이 가능하게 했어. 근데, 매우 heavy 하긴 한 문제점을 
-
+가지고 있긴 하지만, 좀 더 정밀한 임베딩이 가능하다고 볼 수 있어.
+Self Attention 나온 이후 모든 것이 해결 되어 버렸다.
 <br>
 <br>
 <br>
