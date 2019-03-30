@@ -91,6 +91,7 @@ word embedding 까지 학습시키면 특정 task 에 더 잘돼 <br>
   
 <h5> Intro </h5>
 이전에도 Tree based model 은 있었지만, syntactic parse tree 이기 때문에, data sparsity 문제가 있어서 잘 쓰이지 않았어. 
+yoon kim 의 CNN 모델은 이것을 해결했어. 그래서 이걸 합쳐서 해결 하려고해.
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/tree%20cnn_12.png?raw=true" /><br>
 우리 모델은 yoon kim 의 (바로 위의 글) cnn based embedding 을 따라했지만, sequential 하지 않고, hierarchical 한 구조로
 임베딩을 구현했어. <br>
