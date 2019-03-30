@@ -117,7 +117,7 @@ problem 은 심각해진다.)
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_7.png?raw=true" /><br>
 하지만 위의 모델은 한계가 있으므로, 더 정확하게 학습시키기 위해 ancestor 뿐만 아니라 특정 단어의 sibling 까지 동시에 찾도록 학습<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/Tree%20cnn_8.png?raw=true" /><br>
-즉, 가장 최종적으로 가장 advanced 된 모델은, ancestor, sibling, sequential 을 모두 진행 한 후, concat.<br>
+즉, 가장 최종적으로 가장 advanced 된 모델은, ancestor, sibling, sequential 을 모두 진행 한 후, concat -> Fully connected layer<br>
 각각 task 마다 100 개의 필터들을 사용<br>
 결론적으로 기존의 CNN(300 dim) 보다 약 4배정도 커진 dimension 의 임베딩 (1,100 dim) 매우 heavy 해지긴 함!<br>
 하지만 성능은 좋음!!<br>
