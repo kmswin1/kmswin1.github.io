@@ -138,11 +138,26 @@ for Statistical Machine Translation </h3>
 3. update gate & reset gate 를 활용 <br>
 
 <h5> Model </h5>
+1. Encoder-Decoder approach <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru1.PNG?raw=true" /> <br>
+Encoder RNN 마지막 hidden state vector c -> latent vector <br>
+Decoder RNN -> y_t =  y_t-1 ,c, h_t-1 고려 후 Decode <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru2.PNG?raw=true" /> <br>
+X,Y 의 sequence 는 다를 수 있음 <br>
+input, output sequence 의 pair 쌍의 maximum likelihood estimation 로 학습 <br>
+After Training
+i) input vector 가지고, output sequence 생성가능 <br>
+ii) input, output sequence pair probability scoring 가능<br>
 
+2. Gated Recurrent Unit
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru7.PNG?raw=true" /> <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru3.PNG?raw=true" /> <br>
 reset gate : 이전 hidden state 정보를 얼마나 버릴 것인지? (닫히면 아예 모두 0, 새로운 input x 만 고려)
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru4.PNG?raw=true" /> <br>
 update gate : 이전 hidden state 정보를 얼마나 가져 올 것인지?
-
-z 값은 0<=z<=1 이므로, h_j 는 h_j 와 h'_j-1 vector 중 내분점에 위치 
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru6.PNG?raw=true" /> <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru5.PNG?raw=true" /> <br>
+z 값은 0<=z<=1 이므로, h_j 는 h_j 와 h'_j-1 vector 중 내분점에 위치 <br>
 <br>
 <br>
 ### Contact me
