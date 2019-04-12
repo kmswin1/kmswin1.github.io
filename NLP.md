@@ -146,7 +146,7 @@ X,Y 의 sequence 는 다를 수 있음 <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru2.PNG?raw=true" /> <br>
 input, output sequence 의 pair 쌍의 maximum likelihood estimation 로 학습 <br>
 After Training<br>
-i) input vector 가지고, output sequence 생성가능 <br>
+i) input vector(input sequece) 가지고, output sequence 생성가능 <br>
 ii) input, output sequence pair probability scoring 가능<br>
 
 2. Gated Recurrent Unit <br>
@@ -158,6 +158,7 @@ update gate : 이전 hidden state 정보를 얼마나 가져 올 것인지?
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru6.PNG?raw=true" /> <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru5.PNG?raw=true" /> <br>
 z 값은 0<=z<=1 이므로, h_j 는 h_j 와 h'_j-1 vector 중 내분점에 위치 <br>
+
 <br>
 <br>
 ### Contact me
