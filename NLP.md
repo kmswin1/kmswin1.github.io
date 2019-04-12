@@ -147,7 +147,7 @@ X,Y 의 sequence 는 다를 수 있음 <br>
 input, output sequence 의 pair 쌍의 maximum likelihood estimation 로 학습 <br>
 After Training<br>
 i) input vector(input sequece) 가지고, output sequence 생성가능 <br>
-ii) input, output sequence pair probability scoring 가능<br>
+ii) input, output sequence pair probability scoring 가능<br><br>
 
 2. Gated Recurrent Unit <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru7.PNG?raw=true" /> <br>
