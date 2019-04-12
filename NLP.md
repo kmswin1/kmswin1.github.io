@@ -149,7 +149,7 @@ After Training<br>
 i) input vector 가지고, output sequence 생성가능 <br>
 ii) input, output sequence pair probability scoring 가능<br>
 
-2. Gated Recurrent Unit
+2. Gated Recurrent Unit <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru7.PNG?raw=true" /> <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru3.PNG?raw=true" /> <br>
 reset gate : 이전 hidden state 정보를 얼마나 버릴 것인지? (닫히면 아예 모두 0, 새로운 input x 만 고려)
