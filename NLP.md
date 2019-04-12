@@ -152,9 +152,9 @@ ii) input, output sequence pair probability scoring 가능<br>
 2. Gated Recurrent Unit <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru7.PNG?raw=true" /> <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru3.PNG?raw=true" /> <br>
-reset gate : 이전 hidden state 정보를 얼마나 버릴 것인지? (닫히면 아예 모두 0, 새로운 input x 만 고려)
+reset gate : 이전 hidden state 정보를 얼마나 버릴 것인지? (닫히면 아예 모두 0, 새로운 input x 만 고려) <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru4.PNG?raw=true" /> <br>
-update gate : 이전 hidden state 정보를 얼마나 가져 올 것인지?
+update gate : 이전 hidden state 정보를 얼마나 가져 올 것인지?<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru6.PNG?raw=true" /> <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru5.PNG?raw=true" /> <br>
 z 값은 0<=z<=1 이므로, h_j 는 h_j 와 h'_j-1 vector 중 내분점에 위치 <br>
