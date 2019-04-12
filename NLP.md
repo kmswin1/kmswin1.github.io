@@ -140,6 +140,7 @@ for Statistical Machine Translation </h3>
 <h5> Model </h5>
 1. Encoder-Decoder approach <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru1.PNG?raw=true" /> <br>
+word 들은 500 dim, encoder-decoder 각 hidden state 1000 개씩, weight 는 독립적 <br>
 Encoder RNN 마지막 hidden state vector c -> latent vector <br>
 Decoder RNN -> y_t =  y_t-1 ,c, h_t-1 고려 후 Decode <br>
 X,Y 의 sequence 는 다를 수 있음 <br>
@@ -158,7 +159,11 @@ update gate : 이전 hidden state 정보를 얼마나 가져 올 것인지?<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru6.PNG?raw=true" /> <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/gru5.PNG?raw=true" /> <br>
 z 값은 0<=z<=1 이므로, h_j 는 h_j 와 h'_j-1 vector 중 내분점에 위치 <br>
-
+<h5> Conclusion </h5>
+우리는 RNN Encoder-Decoder 접근을 통하여 length 를 고려하지 않고 문장들을 번역할 수 있게 되었다.<br>
+그리고 source, target 문장 간 scoring 도 쉽게 가능 하게 되었다.<br>
+LSTM 보다 효율적이면서, 성능도 더 좋다.<br>
+<br>
 <br>
 <br>
 ### Contact me
