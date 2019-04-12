@@ -129,6 +129,20 @@ problem 은 심각해진다.)
 가지고 있긴 하지만, 좀 더 정밀한 임베딩이 가능하다고 볼 수 있어.
 Self Attention 나온 이후 모든 것이 해결 되어 버렸다.
 <br>
+<h3> Subject :  Learning Phrase Representations using RNN Encoder–Decoder
+for Statistical Machine Translation </h3>
+
+<h5> Abstract </h5> 
+1. 기계번역에서 새로운 접근법 : Endcoder-Decoder model <br>
+2. RNN based model : GRU -> LSTM 보다 간단 & 계산 복잡도 ↓ <br>
+3. update gate & reset gate 를 활용 <br>
+
+<h5> Model </h5>
+
+reset gate : 이전 hidden state 정보를 얼마나 버릴 것인지? (닫히면 아예 모두 0, 새로운 input x 만 고려)
+update gate : 이전 hidden state 정보를 얼마나 가져 올 것인지?
+
+z 값은 0<=z<=1 이므로, h_j 는 h_j 와 h'_j-1 vector 중 내분점에 위치 
 <br>
 <br>
 ### Contact me
