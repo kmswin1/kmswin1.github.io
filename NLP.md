@@ -175,7 +175,7 @@ LSTM 보다 간단하고, Gradient vanishing 을 해결하지만 성능은 더 �
 
 <h5> Model </h5>
 1. what is the NCE? <br>
-<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/NCE0.PNG?raw=true" /> <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/NCE0.png?raw=true" /> <br>
 기존 language model 은 이전까지의 학습 된 word 들을 모두 고려 후, 확률 계산하여 불필요한 중복 계산이 많음<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/NCE1.PNG?raw=true" /> <br>
 그래서 NCE 에서는 true training set 과 그밖의 k개의 data set (우리는 이것을 noise 라고 부를 것) 을 섞어서 학습하여 중복학습 제거 <br>
