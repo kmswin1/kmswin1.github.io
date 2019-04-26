@@ -191,7 +191,7 @@ language model 은 latent variable 이므로 θ 도입 후, MLE <br>
 정리 된 최종 MLE equation <br><br>
 Our model<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/NCE5.PNG?raw=true" /> <br>
-cumulative variable Z(u) 도입하여 1에 가까운 값으로 유지 <br>
+hyper parameter Z(u) 도입하여 1에 가까운 값으로 유지 N(1,ε) <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/NCE6.PNG?raw=true" /> <br>
 p 를 구한 후, 1-p 로 바로 구하여, 불필요한 계산 최소화 <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/NCE7.PNG?raw=true" /> <br>
