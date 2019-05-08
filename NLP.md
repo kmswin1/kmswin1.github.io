@@ -219,25 +219,21 @@ Encoder Decoder 를 분리하여 학습하면, 학습 된 Encoder 를 가지고 
 sentence length 는 인코딩 후 벡터 하나로 나타내기 쉬움 <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/LSTM_2.png?raw=true" /> <br>
 또한, 그 벡터를 기반으로 output length 를 결정 할 수 있다. <br>
+이러한 LSTM encoder 와 decoder 를 Layer 를 여러개 쌓는 것이 좀 더 높은 성능을 보였음
 
 2. Bidirectional <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/LSTM_4.jpg?raw=true" /> <br>
 기존 LSTM 모델에서는, sequence 길이가 길어지면 <br>
 첫째, gradient 가 끝 문장까지 가기가 어렵다. <br>
 둘째, 문장 속에서 붙어있는 단어간 의존도에 의한 bias 가 생길 수 있다.<br>
-명확한 답을 주기는 어렵지만, 아마도 위 두개의 이유로 LSTM 성능이 BLUE score 5 이상 증가하였다.
-hyper parameter Z(u) 도입하여 1에 가까운 값으로 유지 N(1,ε)<br>
-<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/NCE6.png?raw=true" /> <br>
-p 를 구한 후, 1-p 로 바로 구하여, 불필요한 계산 최소화 <br>
-<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/NCE7.png?raw=true" /> <br>
-학습 시 계산해야 하는 language model softmax <br>
-noise q(w) 가 batch 마다 다르므로 모든 batch 마다 따로 학습해주어야 함 (병렬처리 최적화 x), language model -> sparse matrix <br>
-<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/NCE8.png?raw=true" /> <br>
-noise q(w) 를 통일시켜서, hidden layer 를 vector 가 아닌 matrix 로 합침 (병렬처리 최적화 o), language model -> dense matrix <br>
+명확한 답을 주기는 어렵지만, 아마도 위 두개의 이유로 인할 것이라고 예상이 되고, <br>
+그래서 우리는 src sentence 를 순서를 뒤집어서 한번 더 인코딩 시켰다. <br>
+그 결과, LSTM 성능이 BLUE score 5 이상 증가하였다.<br>
+필자의 생각으로는, 위 두가지 이외에 LSTM hidden layer 의 뉴런 중 어떤 한 뉴런이 아마, sentence 의 위치에 따른 impact 에 대한 dimension 이 존재 할 것이고, 그것이 decoding 단에서 강한 bias 로 작용했을 것이다. to reverse the order of sentence 는 그것을 해결해 주지 않았을까? <br>
 <h5> Conclusion </h5>
-간단한 방법으로 NCE 를 GPU 계산에 최적화 하였다.<br>
-오리지널 NCE 보다 학습속도는 4배정도 빨랐다.<br>
-성능또한 근소하게나마 좋았다.<br>
+이후에 나오는 ELMo, GPT, BERT 등의 pretrained transfer learning 의 기반이 된 논문<br>
+bidirectional LSTM 모델의 기반이 된 개념을 제시<br>
+Language model 및 NMT 쪽의 큰 공헌을 한 것 같다.<br>
 <br>
 <br>
 <br>
