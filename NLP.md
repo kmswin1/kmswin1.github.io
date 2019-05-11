@@ -219,7 +219,7 @@ Encoder Decoder 를 분리하여 학습하면, 학습 된 Encoder 를 가지고 
 sentence length 는 인코딩 후 벡터 하나로 나타내기 쉬움 <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/LSTM_2.png?raw=true" /> <br>
 또한, 그 벡터를 기반으로 output length 를 결정 할 수 있다. <br>
-이러한 LSTM encoder 와 decoder 를 Layer 를 여러개 쌓는 것이 좀 더 높은 성능을 보였음 (Truncated BP)<br><br>
+이러한 LSTM encoder 와 decoder 를 Layer 를 여러개 쌓는 것이 좀 더 높은 성능을 보였음 <br><br>
 
 2. Bidirectional <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/LSTM_4.jpg?raw=true" /> <br>
