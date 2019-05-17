@@ -247,8 +247,9 @@ Language model 및 NMT 쪽의 큰 공헌을 한 것 같다.<br>
 <h5> Model </h5>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_2.png?raw=true" /> <br>
 LSTM + 외부 메모리를 사용, 한 단어가 추가될 때 마다 attention 도 값을 업데이트 해줌<br>
+매 스텝시 self attention memory 가짐<br>
 다음 단어 생성시 현재까지의 attention weighted dot product <br>
-이 과정은, 이전 Language model 과 다르게, non-markov state 임의 동시에 contextual representation 기능 함
+이 과정은, 이전 Language model 과 다르게, non-markov state 임의 동시에 contextual representation 기능 함<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_3.png?raw=true" /> <br>
 h tilde 는 attention 적용 된 hidden vector, memory vector 라고 부름<br>
 t step 에서의 i 번째 단어의 attention vector 는 t 번째 input, hidden vector and t-1 번째의 memory vector
@@ -258,15 +259,14 @@ t step 에서 h tilde, c tilde 는 t-1 step 까지의 attention 적용 안된 ve
 결국 self attention 적용 된 h,c tilde vector 가지고 LSTM 적용!!
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_6.png?raw=true" /> <br>
 birectional 적용 시켰을 시
-<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_7.png?raw=true" /> <br>
-<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_8.png?raw=true" /> <br>
-
 모델의 문장생성에 따른 attention 강도
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_1.png?raw=true" /> <br>
-
-
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_7.png?raw=true" /> <br>
+shallow & deep attention
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_8.png?raw=true" /> <br>
 
 <h5> Conclusion </h5>
+기존 sequence to sequence model 은 문장의 구조, gradient vanishing or gradient exploding, long distance word relationship 문제를 가지고 있었다. 매 스텝마다 추가적인 메모리 장치를 이용하여 그 단어에 대한 self attention 개념을 도입하여 더 정확한 language model 도입 <br>
 
 <br>
 <br>
