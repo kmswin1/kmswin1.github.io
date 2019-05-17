@@ -234,6 +234,36 @@ sentence length 는 인코딩 후 벡터 하나로 나타내기 쉬움 <br>
 이후에 나오는 ELMo, GPT, BERT 등의 pretrained transfer learning 의 기반이 된 논문<br>
 bidirectional LSTM 모델의 기반이 된 개념을 제시<br>
 Language model 및 NMT 쪽의 큰 공헌을 한 것 같다.<br>
+
+<br>
+<h3> Subject :  Long Short-Term Memory-Networks for Machine Reading </h3>
+
+<h5> Abstract </h5> 
+1. 기존의 language model 은 문장의 내재된 구조 (주어 동사 목적어 등 관계) 나 먼 거리의 단어 간 영향력은 고려하기 힘들었음 <br>
+2. 그 문제를 해결하기 위해 Attention 개념이 도입 되었음 <br>
+3. LSTM 은 이전 hidden state 만 저장 가능한 불완전한 memory cell <br>
+4. External Memory network 이용하여 attention 구함 -> 인간과 같이 이전 단어들의 의미를 기억해 놓음 <br>
+
+<h5> Model </h5>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_2.jpg?raw=true" /> <br>
+LSTM + 외부 메모리를 사용, 한 단어가 추가될 때 마다 attention 도 값을 업데이트 해줌<br>
+다음 단어 생성시 현재까지의 attention weighted dot product <br>
+이 과정은, 이전 Language model 과 다르게, non-markov state 임의 동시에 contextual representation 기능을 함
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_3.jpg?raw=true" /> <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_4.jpg?raw=true" /> <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_5.jpg?raw=true" /> <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_6.jpg?raw=true" /> <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_7.jpg?raw=true" /> <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_1.jpg?raw=true" /> <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_8.jpg?raw=true" /> <br>
+
+
+모델의 문장생성에 따른 attention 강도
+
+
+<h5> Conclusion </h5>
+
+<br>
 <br>
 <br>
 <br>
