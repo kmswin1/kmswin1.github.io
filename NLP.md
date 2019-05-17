@@ -250,15 +250,20 @@ LSTM + 외부 메모리를 사용, 한 단어가 추가될 때 마다 attention 
 다음 단어 생성시 현재까지의 attention weighted dot product <br>
 이 과정은, 이전 Language model 과 다르게, non-markov state 임의 동시에 contextual representation 기능 함
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_3.png?raw=true" /> <br>
+h tilde 는 attention 적용 된 hidden vector, memory vector 라고 부름<br>
+t step 에서의 i 번째 단어의 attention vector 는 t 번째 input, hidden vector and t-1 번째의 memory vector
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_4.png?raw=true" /> <br>
+t step 에서 h tilde, c tilde 는 t-1 step 까지의 attention 적용 안된 vector 들의 attention softmax score weighted sum
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_5.png?raw=true" /> <br>
+결국 self attention 적용 된 h,c tilde vector 가지고 LSTM 적용!!
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_6.png?raw=true" /> <br>
+birectional 적용 시켰을 시
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_7.png?raw=true" /> <br>
-<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_1.png?raw=true" /> <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_8.png?raw=true" /> <br>
 
-
 모델의 문장생성에 따른 attention 강도
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_1.png?raw=true" /> <br>
+
 
 
 <h5> Conclusion </h5>
