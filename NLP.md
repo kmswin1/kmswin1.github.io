@@ -256,7 +256,8 @@ t step 에서의 i 번째 단어의 attention vector 는 t 번째 input, hidden 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_4.png?raw=true" /> <br>
 t step 에서 h tilde, c tilde 는 t-1 step 까지의 attention 적용 안된 vector 들의 attention softmax score weighted sum
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_5.png?raw=true" /> <br>
-결국 self attention 적용 된 h,c tilde vector 가지고 LSTM 적용!!
+결국 self attention 적용 된 h,c tilde vector 가지고 LSTM 적용!!<br>
+우리가 최종적으로 구하려는 attention vector 는 v 임
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_6.png?raw=true" /> <br>
 birectional 적용 시켰을 시
 모델의 문장생성에 따른 attention 강도
