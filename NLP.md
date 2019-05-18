@@ -45,11 +45,11 @@ iv) Data bootstrapping : pbmt output 다시 pbmt ... recursive 하게 해서 opt
 
 <h5> Model </h5>
 
-<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/스크린샷 2019-03-23 오전 12.24.47.png?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/스크린샷 2019-03-23 오전 12.24.47.png?raw=true" />
 식 해석 : 전체 d개의 단어들에 대해 1~k gram 을 가지고 dictionary 에 있는 단어면 1, 아니면 0을 반환하고, weight 를 곱한 뒤, nonlinear function 적용 하여 임베딩 , 2,3,4 gram 으로 학습<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/20160802_7a29187b_charseq.jpeg?raw=true" />
 charRNN : RNN 기반 character embedding 마지막 output vector 로 임베딩! <br>
-<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/스크린샷 2019-03-23 오전 12.27.55.png?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/스크린샷 2019-03-23 오전 12.27.55.png?raw=true" />
 charCNN : CNN 기반, 보통 3,4,5 size conv 돌린 후 , max pooling -> fc -> output (yoon kim model) <br>
 
 <h5> Conclusion </h5>
@@ -250,6 +250,7 @@ LSTM + 외부 메모리를 사용, 한 단어가 추가될 때 마다 attention 
 매 스텝시 self attention memory 가짐<br>
 다음 단어 생성시 현재까지의 attention weighted dot product <br>
 이 과정은, 이전 Language model 과 다르게, non-markov state 임의 동시에 contextual representation 기능 함<br>
+call additional memory to memory tape <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_3.png?raw=true" /> <br>
 h tilde 는 attention 적용 된 hidden vector, memory vector 라고 부름<br>
 t step 에서의 i 번째 단어의 attention vector 는 t 번째 input, hidden vector and t-1 번째의 memory vector
@@ -257,7 +258,7 @@ t step 에서의 i 번째 단어의 attention vector 는 t 번째 input, hidden 
 t step 에서 h tilde, c tilde 는 t-1 step 까지의 attention 적용 안된 vector 들의 attention softmax score weighted sum
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_5.png?raw=true" /> <br>
 결국 self attention 적용 된 h,c tilde vector 가지고 LSTM 적용!!<br>
-우리가 최종적으로 구하려는 attention vector 는 v 임
+우리가 구하려는 query vector 는 v,h tilde 임
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_6.png?raw=true" /> <br>
 birectional 적용 시켰을 시
 모델의 문장생성에 따른 attention 강도
