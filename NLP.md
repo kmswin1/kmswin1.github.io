@@ -239,7 +239,7 @@ Language model 및 NMT 쪽의 큰 공헌을 한 것 같다.<br>
 <h3> Subject :  Long Short-Term Memory-Networks for Machine Reading </h3>
 
 <h5> Abstract </h5> 
-1. 기존의 language model 은 문장의 내재된 구조 (주어 동사 목적어 등 관계) 나 먼 거리의 단어 간 영향력은 고려하기 힘들었음 <br>
+1. 기존의 language model 은 문장의 내재된 구조 (주어 동사 목적어 등 관계) 나 먼 거리의 단어 간 영향력은 고려하기 힘들었음 (difficult to represent sentence by one vector) <br>
 2. 그 문제를 해결하기 위해 Attention 개념이 도입 되었음 <br>
 3. LSTM 은 이전 hidden state 만 저장 가능한 불완전한 memory cell <br>
 4. External Memory network 이용하여 attention 구함 -> 인간과 같이 이전 단어들의 의미를 기억해 놓음 <br>
@@ -260,7 +260,6 @@ t step 에서 h tilde, c tilde 는 t-1 step 까지의 attention 적용 안된 ve
 결국 self attention 적용 된 h,c tilde vector 가지고 LSTM 적용!!<br>
 우리가 구하려는 query vector 는 v,h tilde 임
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_6.png?raw=true" /> <br>
-birectional 적용 시켰을 시
 모델의 문장생성에 따른 attention 강도
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_1.png?raw=true" /> <br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/selfattention_7.png?raw=true" /> <br>
