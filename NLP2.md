@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Graph NN
-permalink: /Graph/
+title: NLP 2
+permalink: /NLP 2/
 ---
 
-Graph NN
+NLP 2
 
 [kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
