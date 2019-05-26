@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NLP 2
-permalink: /NLP 2/
+permalink: /NLP2/
 ---
 
 NLP 2
