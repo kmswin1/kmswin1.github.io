@@ -4,7 +4,7 @@ title: NLP2
 permalink: /NLP2/
 ---
 <h1> NLP Papers </h1>
-<h2> Contextualized embedding(BERT,ULM Fit), Semantic vs Syntactic embedding</h2>
+<h2> topics : Contextualized embedding(BERT,ULM Fit), Semantic vs Syntactic embedding</h2>
 
 <h3> Subject : BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding </h3>
 
