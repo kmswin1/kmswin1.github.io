@@ -13,7 +13,7 @@ Nice to meet you !!
 <h4>B.S Dept. of Computer science and Engineering (2013~2019)</h4>
 <h4>Research Area : Deep learning, Machine Learning, NLP, Numerical Optimization, Data mining, Semantic search </h4>
 <a href="https://www.linkedin.com/in/minsang-kim-53648717a/"> linked in </a><br>
-<a href="https://sites.google.com/view/minsangkim"> shortBIO </a>
+<a href="https://sites.google.com/view/minsangkim"> shortBio </a> <br>
 ### Contact me
 
 [kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
