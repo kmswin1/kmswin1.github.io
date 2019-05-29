@@ -6,7 +6,7 @@ permalink: /NLP/
 
 
 <h1> NLP Papers </h1>
-<h2> topics: predict next word, word embedding, cnn for text, rnn for language modeling, efficiency tricks for nlp, conditioned generation, attention </h2>
+<h2> topics: predict next word, word embedding, cnn for text, rnn for language modeling, efficient tricks for nlp, conditioned generation, attention </h2>
 
 <h3> Subject : Stronger baselines for trustable results in Neural machine translation </h3>
 
