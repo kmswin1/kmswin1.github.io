@@ -16,7 +16,7 @@ permalink: /NLP2/
 4.next sentence prediction<br>
 
 <h5> model </h5>
-<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_.0png?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_0png?raw=true" />
 BERT 는 기본적으로 context 기반 embedding 임<br>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_2.png?raw=true" />
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_3.png?raw=true" />
