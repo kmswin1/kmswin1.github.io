@@ -48,20 +48,25 @@ permalink: /NLP2/
 
 <h5> model </h5>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_0.png?raw=true" />
+우리는 우선, general domaion Language model Space H 를 pretrain 시켜서 학습 시켜놓는다. <br>
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_1.png?raw=true" />
-
-<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_2.png?raw=true" />
+후에, 특정 domain data set 에 맞도록 fine tuning 한다. <br>
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_3.png?raw=true" />
+이때, learning rate 를 layer 별로 다르게 준다. <br>
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_4.png?raw=true" />
+다음 layer의 learning rate 는 이전 layer 의 learning rate 2.6배 <br>
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_5.png?raw=true" />
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_6.png?raw=true" />
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_7.png?raw=true" />
+warm-up scheduler <br>
+
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_2.png?raw=true" />
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_8.png?raw=true" />
 
