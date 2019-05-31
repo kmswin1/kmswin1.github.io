@@ -41,6 +41,10 @@ permalink: /NLP2/
 <h3> Subject : Universal Language Model Fine-tuning for Text Classification </h3>
 
 <h5> Abstract <h5> 
+최근 imageNet, resNet 등 vision 분야에서 pre-train 된 모델이 state of the art 로 떠올랐다. <br>
+그러나 NLP 분야에서는 pretrained model 도입에 관한 여러 시도가 있었지만 결과가 별로 좋지 않았다. <br>
+나는 그 이유가 NLP 에서는 다른 fine tuning 기법등이 필요하다는 것을 발견해냈다. <br>
+그래서 이 논문에서 새로운 state of the art 성능을 내는 pretrain 모델 및 fine tuning 기법들을 소개하려 한다.<br>
 
 <h5> model </h5>
 
