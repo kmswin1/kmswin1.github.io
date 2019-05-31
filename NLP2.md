@@ -47,8 +47,27 @@ permalink: /NLP2/
 그래서 이 논문에서 새로운 state of the art 성능을 내는 NLP 맞춤 pretrained 모델 및 fine tuning 기법들을 소개하려 한다.<br>
 
 <h5> model </h5>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_0.png?raw=true" />
+
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_1.png?raw=true" />
+
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_2.png?raw=true" />
+
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_3.png?raw=true" />
+
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_4.png?raw=true" />
+
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_5.png?raw=true" />
+
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_6.png?raw=true" />
+
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_7.png?raw=true" />
+
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_8.png?raw=true" />
+
 
 <h5> Conclusion </h5>
+
 <br>
 
 [kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
