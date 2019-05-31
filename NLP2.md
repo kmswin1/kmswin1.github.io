@@ -67,8 +67,10 @@ permalink: /NLP2/
 warm-up scheduler <br>
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_2.png?raw=true" />
+모든 layer 를 한꺼번에 fine tuning 하면 이전 general domain LM 의 정보가 사라질 수 있으므로, 한 layer 씩 학습시키도록 한다.<br>
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_8.png?raw=true" />
+sentence classification 과 같은 특정 task 에는 concat pooing 을 도입하여 더욱 정보의 손실이 없도록 한다.<br>
 
 
 <h5> Conclusion </h5>
