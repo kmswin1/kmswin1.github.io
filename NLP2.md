@@ -57,7 +57,7 @@ permalink: /NLP2/
 이때, learning rate 를 layer 별로 다르게 준다. <br>
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_4.png?raw=true" />
-다음 layer의 learning rate 는 이전 layer 의 learning rate 2.6배 : 상위 레이어로 갈수록, semantic, data genre 를 많이 고려하므로 많은 변화가 필요 할 것으로 예상 <br>
+다음 layer의 learning rate 는 이전 layer 의 learning rate 2.6배 : later 마다 고려하는 정보가 다르고, 상위 layer로 갈수록, semantic, data genre 를 많이 고려하므로 많은 변화가 필요 할 것으로 예상 <br>
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_5.png?raw=true" />
 
