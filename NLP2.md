@@ -9,10 +9,42 @@ permalink: /NLP2/
 <h3> Subject : BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding </h3>
 
 <h5> Abstract <h5> 
+현 NLP 계의 끝판왕. pretrained contextualized LM model<br>
+1.semi-supervised learning (masked LM)<br>
+2.transfer learning (pretrained-encoder)<br>
+3.task-specific fine-tuning<br>
+4.next sentence prediction<br>
 
 <h5> model </h5>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_.0png?raw=true" />
+BERT 는 기본적으로 context 기반 embedding 임<br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_2.png?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_3.png?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_4.png?raw=true" />
+semi-supervised learning 을 통해서, 부족한 data set 을 보충하고, unsupervised 보다 더욱 효율적인 학습<br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_5.png?raw=true" />
+이전 sota 모델들과의 비교, BERT 는 bidirectional 이고, 12개의 transformer 를 쌓음<br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_6.png?raw=true" />
+token embedding, segment embedding, positional embedding 세개로 이루어짐<br>
+token 은 word 단위, segment 는 문장이 두개일 시 문장 구분, positional 은 단어의 문장내 위치 고려<br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_1.png?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_7.png?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_8.png?raw=true" />
+general-domain pretrain encoder 를 가지고 특정 task 에 fine-tuning 후 사용<br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_10.png?raw=true" />
+Masked LM 으로 semi-supervised learning 구현 <br>
+전체 중 15% 를 masking<br>
+그 중 80% 는 그대로 masking <br>
+10% 는 랜덤으로 다른 단어 (de-noising auto-encoder) <br>
+10% 는 원래 단어 (label) <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_9.png?raw=true" />
+문장이 두개 일 시, Next sentence prediction 기법을 통해 문맥 정보를 더 고려한다.<br>
+확실히 성능 향상에 기여 함<br>
+
 
 <h5> Conclusion </h5>
+NLP 분야에서 끝판왕일만큼 여러기법들을 제시했다. (masked LM, sentence prediction, bidirectional LM, pretrained encoder, task-specific fine tuninh)<br>
+BERT 이후에 각종 NLP task 들은 정복 된 것만 같다. 과연 이후에 BERT 를 능가 할 모델이 나올 수 있을까?<br>
 <br>
 
 <h3> Subject : Does BERT really care about a semantic information ? </h3>
@@ -49,6 +81,7 @@ permalink: /NLP2/
 <h5> model </h5>
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_0.png?raw=true" />
 우리는 우선, general domaion Language model Space H 를 pretrain 시켜서 학습 시켜놓는다. <br>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/BERT_2.png?raw=true" />
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/ULMFit_1.png?raw=true" />
 후에, 특정 domain data set 에 맞도록 fine tuning 한다. <br>
