@@ -14,4 +14,4 @@ permalink: /about/
 
 ### Contact me
 
-[kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
+[kmswin1@korea.ac.kr](kmswin7@gmail.com)
