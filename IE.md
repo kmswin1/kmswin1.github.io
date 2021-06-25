@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Bayesian NN
-permalink: /Bayesian/
+title: IE
+permalink: /IE/
 ---
 
 Bayesian NN
