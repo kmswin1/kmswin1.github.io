@@ -13,7 +13,11 @@ Information Extraction
   Autoregressive 하게 Entity 를 생성하는 최신 모델을 소개합니다. (ICLR 2021) <br>
 
   <h6> Entity Retrieval </h6>
+  <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/GENRE-animation-EL.gif?raw=true?raw=true" />
+
   <h6> Document Retrieval </h6>
+  <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/GENRE-animation-QA.gif?raw=true?raw=true" />
+
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/GENRE1.png?raw=true?raw=true" />
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/GENRE2.png?raw=true?raw=true" />
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/GENRE3.png?raw=true?raw=true" />
