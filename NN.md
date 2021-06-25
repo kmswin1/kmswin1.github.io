@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Neural ODE
-permalink: /NeuralODE/
+title: MachineLearning
+permalink: /MachineLearning/
 ---
 
 <h1> Deep Neural Network using by ODE </h1>
