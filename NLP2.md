@@ -1,7 +1,7 @@
 ---
 layout: page
-title: NLP2
-permalink: /NLP2/
+title: LanguageModel
+permalink: /LanguageModel/
 ---
 <h1> NLP Papers </h1>
 <h2> topics : Contextualized embedding(BERT,ULM Fit), Semantic vs Syntactic embedding</h2>
