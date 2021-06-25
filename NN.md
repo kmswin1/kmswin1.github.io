@@ -25,4 +25,4 @@ permalink: /NeuralODE/
 <h5> Conclusion </h5>
     <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/FFJORD_11.png?raw=true" />
 
-[kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
+[kmswin1@korea.ac.kr](kmswin7@gmail.com)
