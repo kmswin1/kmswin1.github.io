@@ -111,4 +111,4 @@ NLP task 에서의 transfer learning 의 state of the art 기준 제시<br>
 
 <br>
 
-[kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
+[kmswin1@korea.ac.kr](kmswin7@gmail.com)
