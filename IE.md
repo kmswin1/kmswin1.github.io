@@ -6,7 +6,7 @@ permalink: /IE/
 Information Extraction
 
 <h1> IE Papers </h1>
-<h2> topics : Entity Linking, Entity DisAmbiguition, Relation Extraction </h2>
+<h2> topics : Entity Linking, Entity DisAmbigution, Relation Extraction </h2>
 
 <h5> AUTOREGRESSIVE ENTITY RETRIEVAL (GENRE) <h5> 
 <h5> Abstract <h5> 
