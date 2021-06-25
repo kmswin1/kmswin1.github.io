@@ -30,7 +30,7 @@ GNN
 <br>
   
 <h5> Abstract <h5> 
-  Meta-learning 을 GNN 에 최적화한 학습기법을 소개합니다. (AAAI 2021 <br>
+  Meta-learning 을 GNN 에 최적화한 학습기법을 소개합니다. (AAAI 2021) <br>
 
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/L2P1.png?raw=true?raw=true" />
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/L2P2.png?raw=true?raw=true" />
@@ -41,7 +41,19 @@ GNN
 <img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/L2P7.png?raw=true?raw=true" />
 
 <br><h5> Abstract <h5> 
-  Few-shot Link prediction 연구인 GEN 모델 입니다. <br>
+  Few-shot Link prediction 연구 모델들 입니다. <br>
+
+<h5> Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction <h5>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/GEN1.png?raw=true?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/GEN2.png?raw=true?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/GEN3.png?raw=true?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/GEN4.png?raw=true?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/GEN5.png?raw=true?raw=true" />
 
 <br>
-[kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
+<h5> META-GRAPH: FEW SHOT LINK PREDICTION VIA META LEARNING <h5>
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/MetaGraph1.png?raw=true?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/MetaGraph2.png?raw=true?raw=true" />
+<img src="https://github.com/kmswin1/kmswin1.github.io/blob/master/images/MetaGraph3.png?raw=true?raw=true" />
+<br>
+[kmswin1@korea.ac.kr](kmswin7@gmail.com)
