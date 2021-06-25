@@ -4,11 +4,6 @@ title: GNN
 permalink: /GNN/
 ---
 
-
-### More Information
-
-GNN
-
 <h1> GNN Papers </h1>
 <h2> topics : knowledge graph, heterogeneous graph, metapath, few-shot learning, graph representation learning </h2>
 
