@@ -4,6 +4,6 @@ title: IE
 permalink: /IE/
 ---
 
-Bayesian NN
+Information Extraction
 
 [kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
