@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Optimization
-permalink: /Opt/
+title: GNN
+permalink: /GNN/
 ---
 
 
 ### More Information
 
-Optimization
+GNN
 
 [kmswin1@korea.ac.kr](kmswin1@korea.ac.kr)
