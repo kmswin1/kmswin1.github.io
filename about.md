@@ -4,9 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Nice to meet you !!
-
-
 <h3>김민상 Minsang Kim</h3>
 <h4> 카카오 엔터프라이즈 AI Lab (2020~current) </h4>
 <h4> 카카오 AI Lab (2019~2020) </h4>
