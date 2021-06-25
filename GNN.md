@@ -4,7 +4,7 @@ title: GNN
 permalink: /GNN/
 ---
 
-<h1> GNN Papers </h1>
+<h1> (Knowledge) Graph Neural Network Papers </h1>
 <h2> topics : knowledge graph, heterogeneous graph, metapath, few-shot learning, graph representation learning </h2>
 
 <h5> Abstract <h5> 
